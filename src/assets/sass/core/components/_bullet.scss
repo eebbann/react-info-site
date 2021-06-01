@@ -1,0 +1,29 @@
+//
+// Bullet
+//
+
+// Base
+.bullet {
+    display: none;
+    background-color: get($bullet, bg-color);
+    @include border-radius(get($bullet, bar-border-radius));
+    width: get($bullet, bar-width);
+    height: get($bullet, bar-height);
+    flex-shrink: 0;
+}
+
+// Dot bullet
+ 
+
+// Vertical bullet
+.bullet-vertical {
+    width: get($bullet, bar-height);
+    height: get($bullet, bar-width);
+}
+
+// Vertical line
+.bullet-line {
+    width: get($bullet, line-width);
+    height: get($bullet, line-height);
+    border-radius: none;
+}
