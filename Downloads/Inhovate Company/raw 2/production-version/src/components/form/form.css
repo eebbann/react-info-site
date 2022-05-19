@@ -1,0 +1,37 @@
+.file_status{
+	display: inline-block;
+	margin-right: 10px;
+	color: rgb(134, 131, 131);
+	font-size: medium;
+	font-weight: bold;
+}
+.form_wrap{
+	background: #ffffff;
+    padding: 62px 30px;
+    position: relative;
+    top: 75px;
+    margin: 66px 17px;
+    border-radius: 9px;
+}
+/* upload styline */
+.upload_btn{
+	padding:5px 20px !important;
+	border-radius: 5px !important;
+	box-shadow: none !important;
+	background: #6b6b6b !important;
+	letter-spacing: 1px !important;
+}
+.upload_btn:hover{
+	background: #67c9f9 !important;
+	color: #ffff !important;
+}
+.cloud{
+padding-right:10px;
+font-size: 29px !important;
+}
+.submit{
+	background-color: #67c9f9 !important;
+	border-radius: 5px !important;
+	box-shadow: none !important;
+	padding:5px 25px !important;
+}
