@@ -48,7 +48,7 @@ function TableGrid() {
                 className="toggle"
                 onClick={() => setOnlyActiveData(!onlyActiveData)}
               >
-                {onlyActiveData ? "Show Deleted" : "Show ALL data"}
+                {onlyActiveData ? "Show Deleted Row" : "Dim Mapping"}
               </Button>
             }
           />

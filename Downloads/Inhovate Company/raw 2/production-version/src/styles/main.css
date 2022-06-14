@@ -55,28 +55,9 @@ body {
   padding: 3px 10px !important;
   margin-left: 20px !important;
 }
-.generate_btn {
+.dim-map {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background: rgb(74, 72, 72) !important;
-  color: white !important;
-  border-radius: 10px !important;
-  border: 0;
-  font-size: 14px;
-  padding: 3px 19px !important;
-  margin-left: 20px !important;
-  cursor: pointer;
-}
-.generate_btn:hover {
-  background: #0a4186 !important;
-  color: white !important;
-  box-shadow: 0px 0px 35px #829fc2 !important;
-  border-radius: 10px !important;
-  border: 0;
-  font-size: 14px;
-  padding: 3px 19px !important;
-  margin-left: 20px !important;
 }
 .pop {
   position: absolute;

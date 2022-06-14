@@ -39,7 +39,7 @@ function Header({ button, Bulk }) {
       .then((res) => {
         fetch_dim_data(params, dispatch);
 
-        toast.success("code generated succesfully");
+        toast.success("Code generated succesfully");
       })
       .catch((err) => {
         toast.error("an error occured while generating the code");

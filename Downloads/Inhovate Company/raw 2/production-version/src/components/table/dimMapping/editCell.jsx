@@ -74,7 +74,7 @@ export const EditCell = (props) => {
               }}
             />
           </ListSubheader>
-          <MenuItem value=" ">No Parent</MenuItem>
+          <MenuItem value="n/a ">No Parent</MenuItem>
           {displayedOptions.map((m) => (
             <MenuItem value={m.value} key={m.value}>
               {/* concatenate no parent on top and {m.title} */}
